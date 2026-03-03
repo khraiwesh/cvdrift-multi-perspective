@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ── Project-specific exclusions ──
+
+# Datasets (large XES files — users should download separately)
+Datasets/
+
+# External / third-party method implementations
+Others/
+
+# Papers (PDFs)
+Papers/
+
+# Result CSVs and logs (generated output, not source code)
+*.csv
+*.cvs
+*.xlsx
+*.txt
+*.png
+
+# Notebook (exploratory, not core)
+*.ipynb
+
+# One-off / debug scripts (prefixed with _)
+_*.py
