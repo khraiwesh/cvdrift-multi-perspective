@@ -1,0 +1,13 @@
+Algorithm,Log Source,Log,Detected Changepoints,Actual Changepoints for Log,Duration (Seconds),Duration (hh:mm:ss),Parameter Settings
+MDD,duration only drift,dataset_500cases_10min_ABD.xes,"[30, 100, 175, 325]","[37, 75]",41.479,00:00:41,"{""window_size"": 30, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_20min_ABD.xes,"[200, 315, 400]","[37, 75]",28.247,00:00:28,"{""window_size"": 30, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_30min_ABD.xes,"[120, 190, 280, 385, 460]","[37, 75]",28.953,00:00:28,"{""window_size"": 30, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_40min_ABD.xes,"[240, 380, 430]","[37, 75]",27.09,00:00:27,"{""window_size"": 30, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_50min_ABD.xes,"[65, 140, 220, 375, 445]","[37, 75]",54.706,00:00:54,"{""window_size"": 30, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_60min_ABD.xes,"[65, 150, 290, 375]","[37, 75]",37.663,00:00:37,"{""window_size"": 30, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_10min_ABD.xes,"[200, 290]","[37, 75]",284.461,00:04:44,"{""window_size"": 200, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_20min_ABD.xes,[255],"[37, 75]",253.47,00:04:13,"{""window_size"": 200, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_30min_ABD.xes,"[215, 280]","[37, 75]",282.068,00:04:42,"{""window_size"": 200, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_40min_ABD.xes,[235],"[37, 75]",269.898,00:04:29,"{""window_size"": 200, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_50min_ABD.xes,[290],"[37, 75]",263.671,00:04:23,"{""window_size"": 200, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"
+MDD,duration only drift,dataset_500cases_60min_ABD.xes,[290],"[37, 75]",294.974,00:04:54,"{""window_size"": 200, ""jump_dis"": 3, ""change_num"": 1, ""stepLen"": 10, ""trainfile"": ""cp5k.mxml""}"

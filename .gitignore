@@ -25,8 +25,10 @@ Thumbs.db
 
 # ── Project-specific exclusions ──
 
-# Datasets (large XES files — users should download separately)
+# Datasets — exclude all EXCEPT Evaluation/
 Datasets/
+!Datasets/Evaluation/
+!Datasets/Evaluation/**
 
 # External / third-party method implementations
 Others/

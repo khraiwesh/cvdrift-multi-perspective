@@ -1,0 +1,4706 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<string key="Case" value="1" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-01T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-01T08:00:00+00:00" />
+			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="Case" value="1" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-01T08:26:19.301203+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-01T08:26:19.301203+00:00" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="Case" value="1" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-01T09:01:03.319376+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-01T09:01:03.319376+00:00" />
+			<int key="@@index" value="2" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="Case" value="1" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-01T09:53:29.391721+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-01T09:53:29.391721+00:00" />
+			<int key="@@index" value="3" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10" />
+		<event>
+			<string key="Case" value="10" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-05T11:16:53.846168+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-05T11:16:53.846168+00:00" />
+			<int key="@@index" value="4" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Case" value="10" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-05T11:53:30.684337+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-05T11:53:30.684337+00:00" />
+			<int key="@@index" value="5" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Case" value="10" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-05T12:38:16.407247+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-05T12:38:16.407247+00:00" />
+			<int key="@@index" value="6" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Case" value="10" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-05T13:23:26.071749+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-05T13:23:26.071749+00:00" />
+			<int key="@@index" value="7" />
+			<int key="@@case_index" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="100" />
+		<event>
+			<string key="Case" value="100" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-05-10T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-05-10T08:00:00+00:00" />
+			<int key="@@index" value="8" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="Case" value="100" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-05-10T09:48:54.678455+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-05-10T09:48:54.678455+00:00" />
+			<int key="@@index" value="9" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="Case" value="100" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-05-10T10:40:05.417981+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-05-10T10:40:05.417981+00:00" />
+			<int key="@@index" value="10" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="Case" value="100" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-05-10T13:13:41.519123+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-05-10T13:13:41.519123+00:00" />
+			<int key="@@index" value="11" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11" />
+		<event>
+			<string key="Case" value="11" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-06T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-06T08:00:00+00:00" />
+			<int key="@@index" value="12" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="Case" value="11" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-06T08:38:17.599169+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-06T08:38:17.599169+00:00" />
+			<int key="@@index" value="13" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="Case" value="11" />
+			<string key="Activity" value="Diagnosi" />
+			<date key="Timestamp" value="2025-01-06T09:22:33.046591+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:Diagnosi)" />
+			<string key="concept:name" value="Diagnosi" />
+			<date key="time:timestamp" value="2025-01-06T09:22:33.046591+00:00" />
+			<int key="@@index" value="14" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="Case" value="11" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-06T10:12:40.583207+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-06T10:12:40.583207+00:00" />
+			<int key="@@index" value="15" />
+			<int key="@@case_index" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12" />
+		<event>
+			<string key="Case" value="12" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-06T10:58:13.887049+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-06T10:58:13.887049+00:00" />
+			<int key="@@index" value="16" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Case" value="12" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-06T11:36:19.825991+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-06T11:36:19.825991+00:00" />
+			<int key="@@index" value="17" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Case" value="12" />
+			<string key="Activity" value="Dinagnosis" />
+			<date key="Timestamp" value="2025-01-06T12:20:26.303257+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:Dinagnosis)" />
+			<string key="concept:name" value="Dinagnosis" />
+			<date key="time:timestamp" value="2025-01-06T12:20:26.303257+00:00" />
+			<int key="@@index" value="18" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Case" value="12" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-06T13:14:17.582506+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-06T13:14:17.582506+00:00" />
+			<int key="@@index" value="19" />
+			<int key="@@case_index" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13" />
+		<event>
+			<string key="Case" value="13" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-07T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-07T08:00:00+00:00" />
+			<int key="@@index" value="20" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="Case" value="13" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-07T08:29:09.831948+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-07T08:29:09.831948+00:00" />
+			<int key="@@index" value="21" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="Case" value="13" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-07T09:22:06.555835+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-07T09:22:06.555835+00:00" />
+			<int key="@@index" value="22" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="Case" value="13" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-07T10:18:17.708563+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-07T10:18:17.708563+00:00" />
+			<int key="@@index" value="23" />
+			<int key="@@case_index" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14" />
+		<event>
+			<string key="Case" value="14" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-07T11:11:55.122515+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-07T11:11:55.122515+00:00" />
+			<int key="@@index" value="24" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="Case" value="14" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-07T11:47:22.351212+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-07T11:47:22.351212+00:00" />
+			<int key="@@index" value="25" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="Case" value="14" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-07T12:30:13.850891+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-07T12:30:13.850891+00:00" />
+			<int key="@@index" value="26" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="Case" value="14" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-07T13:35:29.009708+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-07T13:35:29.009708+00:00" />
+			<int key="@@index" value="27" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15" />
+		<event>
+			<string key="Case" value="15" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-08T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-08T08:00:00+00:00" />
+			<int key="@@index" value="28" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="Case" value="15" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-08T08:23:01.826507+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-08T08:23:01.826507+00:00" />
+			<int key="@@index" value="29" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="Case" value="15" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-08T09:04:54.356900+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-08T09:04:54.356900+00:00" />
+			<int key="@@index" value="30" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="Case" value="15" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-08T10:11:08.038835+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-08T10:11:08.038835+00:00" />
+			<int key="@@index" value="31" />
+			<int key="@@case_index" value="7" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16" />
+		<event>
+			<string key="Case" value="16" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-08T11:16:28.964482+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-08T11:16:28.964482+00:00" />
+			<int key="@@index" value="32" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="Case" value="16" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-08T11:39:28.301508+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-08T11:39:28.301508+00:00" />
+			<int key="@@index" value="33" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="Case" value="16" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-08T12:06:49.382198+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-08T12:06:49.382198+00:00" />
+			<int key="@@index" value="34" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="Case" value="16" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-08T13:15:40.594965+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-08T13:15:40.594965+00:00" />
+			<int key="@@index" value="35" />
+			<int key="@@case_index" value="8" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17" />
+		<event>
+			<string key="Case" value="17" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-09T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-09T08:00:00+00:00" />
+			<int key="@@index" value="36" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Case" value="17" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-09T08:25:48.705953+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-09T08:25:48.705953+00:00" />
+			<int key="@@index" value="37" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Case" value="17" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-09T08:55:15.980308+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-09T08:55:15.980308+00:00" />
+			<int key="@@index" value="38" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Case" value="17" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-09T10:05:07.761215+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-09T10:05:07.761215+00:00" />
+			<int key="@@index" value="39" />
+			<int key="@@case_index" value="9" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18" />
+		<event>
+			<string key="Case" value="18" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-09T11:06:39.466379+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-09T11:06:39.466379+00:00" />
+			<int key="@@index" value="40" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Case" value="18" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-09T11:32:12.428923+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-09T11:32:12.428923+00:00" />
+			<int key="@@index" value="41" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Case" value="18" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-09T12:20:24.846358+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-09T12:20:24.846358+00:00" />
+			<int key="@@index" value="42" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Case" value="18" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-09T13:21:53.589118+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-09T13:21:53.589118+00:00" />
+			<int key="@@index" value="43" />
+			<int key="@@case_index" value="10" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="19" />
+		<event>
+			<string key="Case" value="19" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-10T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-10T08:00:00+00:00" />
+			<int key="@@index" value="44" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="Case" value="19" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-10T08:30:57.481179+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-10T08:30:57.481179+00:00" />
+			<int key="@@index" value="45" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="Case" value="19" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-10T09:03:00.924511+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-10T09:03:00.924511+00:00" />
+			<int key="@@index" value="46" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="Case" value="19" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-10T10:30:28.710429+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-10T10:30:28.710429+00:00" />
+			<int key="@@index" value="47" />
+			<int key="@@case_index" value="11" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<string key="Case" value="2" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2024-12-01T10:43:48.222390+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-01-01 10:43:48.222390)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2024-12-01T10:43:48.222390+00:00" />
+			<int key="@@index" value="48" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="Case" value="2" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-01T11:13:52.781436+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-01T11:13:52.781436+00:00" />
+			<int key="@@index" value="49" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="Case" value="2" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-01T12:04:30.602170+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-01T12:04:30.602170+00:00" />
+			<int key="@@index" value="50" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="Case" value="2" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-01T12:35:37.282209+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-01T12:35:37.282209+00:00" />
+			<int key="@@index" value="51" />
+			<int key="@@case_index" value="12" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20" />
+		<event>
+			<string key="Case" value="20" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-10T11:00:47.672588+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-10T11:00:47.672588+00:00" />
+			<int key="@@index" value="52" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="Case" value="20" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-10T11:35:35.312108+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-10T11:35:35.312108+00:00" />
+			<int key="@@index" value="53" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="Case" value="20" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-10T12:09:26.320829+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-10T12:09:26.320829+00:00" />
+			<int key="@@index" value="54" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="Case" value="20" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-10T13:02:35.141785+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-10T13:02:35.141785+00:00" />
+			<int key="@@index" value="55" />
+			<int key="@@case_index" value="13" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21" />
+		<event>
+			<string key="Case" value="21" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-11T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-11T08:00:00+00:00" />
+			<int key="@@index" value="56" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="Case" value="21" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-11T08:32:06.015164+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-11T08:32:06.015164+00:00" />
+			<int key="@@index" value="57" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="Case" value="21" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-11T09:22:09.988303+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-11T09:22:09.988303+00:00" />
+			<int key="@@index" value="58" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="Case" value="21" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-11T10:27:03.859741+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-11T10:27:03.859741+00:00" />
+			<int key="@@index" value="59" />
+			<int key="@@case_index" value="14" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="22" />
+		<event>
+			<string key="Case" value="22" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-11T11:37:01.402806+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-11T11:37:01.402806+00:00" />
+			<int key="@@index" value="60" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Case" value="22" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-11T12:05:15.170534+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-11T12:05:15.170534+00:00" />
+			<int key="@@index" value="61" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Case" value="22" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-11T13:02:47.086514+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-11T13:02:47.086514+00:00" />
+			<int key="@@index" value="62" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Case" value="22" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-11T13:54:01.152314+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-11T13:54:01.152314+00:00" />
+			<int key="@@index" value="63" />
+			<int key="@@case_index" value="15" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23" />
+		<event>
+			<string key="Case" value="23" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-12T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-12T08:00:00+00:00" />
+			<int key="@@index" value="64" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="Case" value="23" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-12T08:24:11.640330+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-12T08:24:11.640330+00:00" />
+			<int key="@@index" value="65" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="Case" value="23" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-12T09:04:31.700568+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-12T09:04:31.700568+00:00" />
+			<int key="@@index" value="66" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="Case" value="23" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-12T09:53:14.123997+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-12T09:53:14.123997+00:00" />
+			<int key="@@index" value="67" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24" />
+		<event>
+			<string key="Case" value="24" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-12T11:02:25.779944+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-12T11:02:25.779944+00:00" />
+			<int key="@@index" value="68" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="Case" value="24" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-12T11:33:41.968726+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-12T11:33:41.968726+00:00" />
+			<int key="@@index" value="69" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="Case" value="24" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-12T12:36:46.901793+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-12T12:36:46.901793+00:00" />
+			<int key="@@index" value="70" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="Case" value="24" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-12T13:45:15.189435+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-12T13:45:15.189435+00:00" />
+			<int key="@@index" value="71" />
+			<int key="@@case_index" value="17" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="25" />
+		<event>
+			<string key="Case" value="25" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-13T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-13T08:00:00+00:00" />
+			<int key="@@index" value="72" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="Case" value="25" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-13T08:39:58.444137+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-13T08:39:58.444137+00:00" />
+			<int key="@@index" value="73" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="Case" value="25" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-13T09:18:19.962929+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-13T09:18:19.962929+00:00" />
+			<int key="@@index" value="74" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="Case" value="25" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-13T10:21:34.257131+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-13T10:21:34.257131+00:00" />
+			<int key="@@index" value="75" />
+			<int key="@@case_index" value="18" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="26" />
+		<event>
+			<string key="Case" value="26" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-13T11:07:37.247092+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-13T11:07:37.247092+00:00" />
+			<int key="@@index" value="76" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="Case" value="26" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-13T11:50:18.398386+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-13T11:50:18.398386+00:00" />
+			<int key="@@index" value="77" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="Case" value="26" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-13T12:34:20.002975+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-13T12:34:20.002975+00:00" />
+			<int key="@@index" value="78" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="Case" value="26" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-13T13:33:51.371756+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-13T13:33:51.371756+00:00" />
+			<int key="@@index" value="79" />
+			<int key="@@case_index" value="19" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27" />
+		<event>
+			<string key="Case" value="27" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-14T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-14T08:00:00+00:00" />
+			<int key="@@index" value="80" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="Case" value="27" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-14T08:38:16.144236+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-14T08:38:16.144236+00:00" />
+			<int key="@@index" value="81" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="Case" value="27" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-14T09:27:15.366815+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-14T09:27:15.366815+00:00" />
+			<int key="@@index" value="82" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="Case" value="27" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-14T10:20:51.208278+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-14T10:20:51.208278+00:00" />
+			<int key="@@index" value="83" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28" />
+		<event>
+			<string key="Case" value="28" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-14T11:05:19.932809+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-14T11:05:19.932809+00:00" />
+			<int key="@@index" value="84" />
+			<int key="@@case_index" value="21" />
+		</event>
+		<event>
+			<string key="Case" value="28" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-14T11:44:47.699633+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-14T11:44:47.699633+00:00" />
+			<int key="@@index" value="85" />
+			<int key="@@case_index" value="21" />
+		</event>
+		<event>
+			<string key="Case" value="28" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-14T12:20:49.390410+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-14T12:20:49.390410+00:00" />
+			<int key="@@index" value="86" />
+			<int key="@@case_index" value="21" />
+		</event>
+		<event>
+			<string key="Case" value="28" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-14T12:55:53.665073+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-14T12:55:53.665073+00:00" />
+			<int key="@@index" value="87" />
+			<int key="@@case_index" value="21" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29" />
+		<event>
+			<string key="Case" value="29" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-15T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-15T08:00:00+00:00" />
+			<int key="@@index" value="88" />
+			<int key="@@case_index" value="22" />
+		</event>
+		<event>
+			<string key="Case" value="29" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-15T08:36:32.937361+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-15T08:36:32.937361+00:00" />
+			<int key="@@index" value="89" />
+			<int key="@@case_index" value="22" />
+		</event>
+		<event>
+			<string key="Case" value="29" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-15T09:11:45.657402+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-15T09:11:45.657402+00:00" />
+			<int key="@@index" value="90" />
+			<int key="@@case_index" value="22" />
+		</event>
+		<event>
+			<string key="Case" value="29" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-15T10:03:31.198141+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-15T10:03:31.198141+00:00" />
+			<int key="@@index" value="91" />
+			<int key="@@case_index" value="22" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<string key="Case" value="3" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2024-12-02T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-01-02 08:00:00)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2024-12-02T08:00:00+00:00" />
+			<int key="@@index" value="92" />
+			<int key="@@case_index" value="23" />
+		</event>
+		<event>
+			<string key="Case" value="3" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-02T08:39:09.677428+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-02T08:39:09.677428+00:00" />
+			<int key="@@index" value="93" />
+			<int key="@@case_index" value="23" />
+		</event>
+		<event>
+			<string key="Case" value="3" />
+			<string key="Activity" value="diagnosis" />
+			<date key="Timestamp" value="2025-01-02T09:31:01.676520+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:diagnosis)" />
+			<string key="concept:name" value="diagnosis" />
+			<date key="time:timestamp" value="2025-01-02T09:31:01.676520+00:00" />
+			<int key="@@index" value="94" />
+			<int key="@@case_index" value="23" />
+		</event>
+		<event>
+			<string key="Case" value="3" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-02T10:36:59.386602+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-02T10:36:59.386602+00:00" />
+			<int key="@@index" value="95" />
+			<int key="@@case_index" value="23" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="30" />
+		<event>
+			<string key="Case" value="30" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-15T10:49:19.249258+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-15T10:49:19.249258+00:00" />
+			<int key="@@index" value="96" />
+			<int key="@@case_index" value="24" />
+		</event>
+		<event>
+			<string key="Case" value="30" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-15T11:21:48.073841+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-15T11:21:48.073841+00:00" />
+			<int key="@@index" value="97" />
+			<int key="@@case_index" value="24" />
+		</event>
+		<event>
+			<string key="Case" value="30" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-15T12:19:35.801919+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-15T12:19:35.801919+00:00" />
+			<int key="@@index" value="98" />
+			<int key="@@case_index" value="24" />
+		</event>
+		<event>
+			<string key="Case" value="30" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-15T13:40:05.902542+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-15T13:40:05.902542+00:00" />
+			<int key="@@index" value="99" />
+			<int key="@@case_index" value="24" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="31" />
+		<event>
+			<string key="Case" value="31" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-16T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-16T08:00:00+00:00" />
+			<int key="@@index" value="100" />
+			<int key="@@case_index" value="25" />
+		</event>
+		<event>
+			<string key="Case" value="31" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-16T08:35:28.248886+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-16T08:35:28.248886+00:00" />
+			<int key="@@index" value="101" />
+			<int key="@@case_index" value="25" />
+		</event>
+		<event>
+			<string key="Case" value="31" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-16T09:21:46.576769+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-16T09:21:46.576769+00:00" />
+			<int key="@@index" value="102" />
+			<int key="@@case_index" value="25" />
+		</event>
+		<event>
+			<string key="Case" value="31" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-16T10:43:51.287830+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-16T10:43:51.287830+00:00" />
+			<int key="@@index" value="103" />
+			<int key="@@case_index" value="25" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="32" />
+		<event>
+			<string key="Case" value="32" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-17T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-17T08:00:00+00:00" />
+			<int key="@@index" value="104" />
+			<int key="@@case_index" value="26" />
+		</event>
+		<event>
+			<string key="Case" value="32" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-17T08:26:33.470293+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-17T08:26:33.470293+00:00" />
+			<int key="@@index" value="105" />
+			<int key="@@case_index" value="26" />
+		</event>
+		<event>
+			<string key="Case" value="32" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-17T09:05:50.916238+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-17T09:05:50.916238+00:00" />
+			<int key="@@index" value="106" />
+			<int key="@@case_index" value="26" />
+		</event>
+		<event>
+			<string key="Case" value="32" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-17T10:00:47.628095+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-17T10:00:47.628095+00:00" />
+			<int key="@@index" value="107" />
+			<int key="@@case_index" value="26" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="33" />
+		<event>
+			<string key="Case" value="33" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-17T10:47:47.415873+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-17T10:47:47.415873+00:00" />
+			<int key="@@index" value="108" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="Case" value="33" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-17T11:26:39.879070+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-17T11:26:39.879070+00:00" />
+			<int key="@@index" value="109" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="Case" value="33" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-17T12:20:32.958546+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-17T12:20:32.958546+00:00" />
+			<int key="@@index" value="110" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="Case" value="33" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-17T13:14:03.073266+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-17T13:14:03.073266+00:00" />
+			<int key="@@index" value="111" />
+			<int key="@@case_index" value="27" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="34" />
+		<event>
+			<string key="Case" value="34" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-18T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-18T08:00:00+00:00" />
+			<int key="@@index" value="112" />
+			<int key="@@case_index" value="28" />
+		</event>
+		<event>
+			<string key="Case" value="34" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-18T08:34:58.945917+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-18T08:34:58.945917+00:00" />
+			<int key="@@index" value="113" />
+			<int key="@@case_index" value="28" />
+		</event>
+		<event>
+			<string key="Case" value="34" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-18T09:22:46.284638+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-18T09:22:46.284638+00:00" />
+			<int key="@@index" value="114" />
+			<int key="@@case_index" value="28" />
+		</event>
+		<event>
+			<string key="Case" value="34" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-18T10:01:06.256654+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-18T10:01:06.256654+00:00" />
+			<int key="@@index" value="115" />
+			<int key="@@case_index" value="28" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="35" />
+		<event>
+			<string key="Case" value="35" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-18T10:49:49.427127+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-18T10:49:49.427127+00:00" />
+			<int key="@@index" value="116" />
+			<int key="@@case_index" value="29" />
+		</event>
+		<event>
+			<string key="Case" value="35" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-18T11:25:05.536648+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-18T11:25:05.536648+00:00" />
+			<int key="@@index" value="117" />
+			<int key="@@case_index" value="29" />
+		</event>
+		<event>
+			<string key="Case" value="35" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-18T12:26:08.100694+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-18T12:26:08.100694+00:00" />
+			<int key="@@index" value="118" />
+			<int key="@@case_index" value="29" />
+		</event>
+		<event>
+			<string key="Case" value="35" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-18T13:25:27.467284+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-18T13:25:27.467284+00:00" />
+			<int key="@@index" value="119" />
+			<int key="@@case_index" value="29" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="36" />
+		<event>
+			<string key="Case" value="36" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-19T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-19T08:00:00+00:00" />
+			<int key="@@index" value="120" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="Case" value="36" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-19T08:41:23.990293+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-19T08:41:23.990293+00:00" />
+			<int key="@@index" value="121" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="Case" value="36" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-19T09:28:39.300479+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-19T09:28:39.300479+00:00" />
+			<int key="@@index" value="122" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="Case" value="36" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-19T10:26:54.424746+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-19T10:26:54.424746+00:00" />
+			<int key="@@index" value="123" />
+			<int key="@@case_index" value="30" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="37" />
+		<event>
+			<string key="Case" value="37" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-20T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-20T08:00:00+00:00" />
+			<int key="@@index" value="124" />
+			<int key="@@case_index" value="31" />
+		</event>
+		<event>
+			<string key="Case" value="37" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-20T09:16:19.670963+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-20T09:16:19.670963+00:00" />
+			<int key="@@index" value="125" />
+			<int key="@@case_index" value="31" />
+		</event>
+		<event>
+			<string key="Case" value="37" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-20T10:50:45.680750+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-20T10:50:45.680750+00:00" />
+			<int key="@@index" value="126" />
+			<int key="@@case_index" value="31" />
+		</event>
+		<event>
+			<string key="Case" value="37" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-20T12:36:56.105624+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-20T12:36:56.105624+00:00" />
+			<int key="@@index" value="127" />
+			<int key="@@case_index" value="31" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="38" />
+		<event>
+			<string key="Case" value="38" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-21T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-21T08:00:00+00:00" />
+			<int key="@@index" value="128" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="Case" value="38" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-21T09:31:42.137209+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-21T09:31:42.137209+00:00" />
+			<int key="@@index" value="129" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="Case" value="38" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-21T10:16:37.337389+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-21T10:16:37.337389+00:00" />
+			<int key="@@index" value="130" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="Case" value="38" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-21T11:56:22.638950+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-21T11:56:22.638950+00:00" />
+			<int key="@@index" value="131" />
+			<int key="@@case_index" value="32" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="39" />
+		<event>
+			<string key="Case" value="39" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-22T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-22T08:00:00+00:00" />
+			<int key="@@index" value="132" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="Case" value="39" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-22T09:37:04.601870+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-22T09:37:04.601870+00:00" />
+			<int key="@@index" value="133" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="Case" value="39" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-22T12:04:20.791481+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-22T12:04:20.791481+00:00" />
+			<int key="@@index" value="134" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="Case" value="39" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-22T14:14:47.445000+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-22T14:14:47.445000+00:00" />
+			<int key="@@index" value="135" />
+			<int key="@@case_index" value="33" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<string key="Case" value="4" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2024-12-02T11:15:32.118610+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-01-02 11:15:32.118610)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2024-12-02T11:15:32.118610+00:00" />
+			<int key="@@index" value="136" />
+			<int key="@@case_index" value="34" />
+		</event>
+		<event>
+			<string key="Case" value="4" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-02T11:45:06.295545+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-02T11:45:06.295545+00:00" />
+			<int key="@@index" value="137" />
+			<int key="@@case_index" value="34" />
+		</event>
+		<event>
+			<string key="Case" value="4" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-02T12:28:58.839471+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-02T12:28:58.839471+00:00" />
+			<int key="@@index" value="138" />
+			<int key="@@case_index" value="34" />
+		</event>
+		<event>
+			<string key="Case" value="4" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-02T13:12:11.407556+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-02T13:12:11.407556+00:00" />
+			<int key="@@index" value="139" />
+			<int key="@@case_index" value="34" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="40" />
+		<event>
+			<string key="Case" value="40" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-23T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-23T08:00:00+00:00" />
+			<int key="@@index" value="140" />
+			<int key="@@case_index" value="35" />
+		</event>
+		<event>
+			<string key="Case" value="40" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-23T09:35:40.527652+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-23T09:35:40.527652+00:00" />
+			<int key="@@index" value="141" />
+			<int key="@@case_index" value="35" />
+		</event>
+		<event>
+			<string key="Case" value="40" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-23T10:21:28.164295+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-23T10:21:28.164295+00:00" />
+			<int key="@@index" value="142" />
+			<int key="@@case_index" value="35" />
+		</event>
+		<event>
+			<string key="Case" value="40" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-23T12:18:47.283571+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-23T12:18:47.283571+00:00" />
+			<int key="@@index" value="143" />
+			<int key="@@case_index" value="35" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="41" />
+		<event>
+			<string key="Case" value="41" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-24T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-24T08:00:00+00:00" />
+			<int key="@@index" value="144" />
+			<int key="@@case_index" value="36" />
+		</event>
+		<event>
+			<string key="Case" value="41" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-24T09:38:01.804639+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-24T09:38:01.804639+00:00" />
+			<int key="@@index" value="145" />
+			<int key="@@case_index" value="36" />
+		</event>
+		<event>
+			<string key="Case" value="41" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-24T10:21:43.375463+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-24T10:21:43.375463+00:00" />
+			<int key="@@index" value="146" />
+			<int key="@@case_index" value="36" />
+		</event>
+		<event>
+			<string key="Case" value="41" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-24T12:45:38.799400+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-24T12:45:38.799400+00:00" />
+			<int key="@@index" value="147" />
+			<int key="@@case_index" value="36" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="42" />
+		<event>
+			<string key="Case" value="42" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-25T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-25T08:00:00+00:00" />
+			<int key="@@index" value="148" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="Case" value="42" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-25T09:09:55.633584+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-25T09:09:55.633584+00:00" />
+			<int key="@@index" value="149" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="Case" value="42" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-25T10:44:43.822615+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-25T10:44:43.822615+00:00" />
+			<int key="@@index" value="150" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="Case" value="42" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-25T12:16:35.961174+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-25T12:16:35.961174+00:00" />
+			<int key="@@index" value="151" />
+			<int key="@@case_index" value="37" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="43" />
+		<event>
+			<string key="Case" value="43" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-26T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-26T08:00:00+00:00" />
+			<int key="@@index" value="152" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="Case" value="43" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-26T09:16:57.092832+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-26T09:16:57.092832+00:00" />
+			<int key="@@index" value="153" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="Case" value="43" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-26T10:49:11.176222+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-26T10:49:11.176222+00:00" />
+			<int key="@@index" value="154" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="Case" value="43" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-26T12:31:12.745529+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-26T12:31:12.745529+00:00" />
+			<int key="@@index" value="155" />
+			<int key="@@case_index" value="38" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="44" />
+		<event>
+			<string key="Case" value="44" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-27T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-27T08:00:00+00:00" />
+			<int key="@@index" value="156" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="Case" value="44" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-27T09:35:03.869616+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-27T09:35:03.869616+00:00" />
+			<int key="@@index" value="157" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="Case" value="44" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-27T11:23:52.327249+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-27T11:23:52.327249+00:00" />
+			<int key="@@index" value="158" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="Case" value="44" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-27T13:44:50.708459+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-27T13:44:50.708459+00:00" />
+			<int key="@@index" value="159" />
+			<int key="@@case_index" value="39" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="45" />
+		<event>
+			<string key="Case" value="45" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-28T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-28T08:00:00+00:00" />
+			<int key="@@index" value="160" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="Case" value="45" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-28T09:47:33.963702+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-28T09:47:33.963702+00:00" />
+			<int key="@@index" value="161" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="Case" value="45" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-28T10:45:50.743334+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-28T10:45:50.743334+00:00" />
+			<int key="@@index" value="162" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="Case" value="45" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-28T13:01:02.328842+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-28T13:01:02.328842+00:00" />
+			<int key="@@index" value="163" />
+			<int key="@@case_index" value="40" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="46" />
+		<event>
+			<string key="Case" value="46" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-29T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-29T08:00:00+00:00" />
+			<int key="@@index" value="164" />
+			<int key="@@case_index" value="41" />
+		</event>
+		<event>
+			<string key="Case" value="46" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-29T09:48:04.407821+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-29T09:48:04.407821+00:00" />
+			<int key="@@index" value="165" />
+			<int key="@@case_index" value="41" />
+		</event>
+		<event>
+			<string key="Case" value="46" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-29T12:11:16.615730+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-29T12:11:16.615730+00:00" />
+			<int key="@@index" value="166" />
+			<int key="@@case_index" value="41" />
+		</event>
+		<event>
+			<string key="Case" value="46" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-29T13:36:57.165131+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-29T13:36:57.165131+00:00" />
+			<int key="@@index" value="167" />
+			<int key="@@case_index" value="41" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="47" />
+		<event>
+			<string key="Case" value="47" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-30T09:13:27.828776+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-30T09:13:27.828776+00:00" />
+			<int key="@@index" value="168" />
+			<int key="@@case_index" value="42" />
+		</event>
+		<event>
+			<string key="Case" value="47" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-30T11:07:38.202771+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-30T11:07:38.202771+00:00" />
+			<int key="@@index" value="169" />
+			<int key="@@case_index" value="42" />
+		</event>
+		<event>
+			<string key="Case" value="47" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-30T13:30:59.401027+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-30T13:30:59.401027+00:00" />
+			<int key="@@index" value="170" />
+			<int key="@@case_index" value="42" />
+		</event>
+		<event>
+			<string key="Case" value="47" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-28T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-01-30 08:00:00)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-28T08:00:00+00:00" />
+			<int key="@@index" value="171" />
+			<int key="@@case_index" value="42" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="48" />
+		<event>
+			<string key="Case" value="48" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-31T09:23:15.024717+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-31T09:23:15.024717+00:00" />
+			<int key="@@index" value="172" />
+			<int key="@@case_index" value="43" />
+		</event>
+		<event>
+			<string key="Case" value="48" />
+			<string key="Activity" value="Dianosis" />
+			<date key="Timestamp" value="2025-01-31T11:40:56.681849+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:Dianosis)" />
+			<string key="concept:name" value="Dianosis" />
+			<date key="time:timestamp" value="2025-01-31T11:40:56.681849+00:00" />
+			<int key="@@index" value="173" />
+			<int key="@@case_index" value="43" />
+		</event>
+		<event>
+			<string key="Case" value="48" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-31T13:32:15.492977+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-31T13:32:15.492977+00:00" />
+			<int key="@@index" value="174" />
+			<int key="@@case_index" value="43" />
+		</event>
+		<event>
+			<string key="Case" value="48" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-28T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-01-31 08:00:00)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-28T08:00:00+00:00" />
+			<int key="@@index" value="175" />
+			<int key="@@case_index" value="43" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="49" />
+		<event>
+			<string key="Case" value="49" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-01T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-02-01 08:00:00)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-01T08:00:00+00:00" />
+			<int key="@@index" value="176" />
+			<int key="@@case_index" value="44" />
+		</event>
+		<event>
+			<string key="Case" value="49" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-01T09:07:56.169330+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-01T09:07:56.169330+00:00" />
+			<int key="@@index" value="177" />
+			<int key="@@case_index" value="44" />
+		</event>
+		<event>
+			<string key="Case" value="49" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-01T10:50:27.527236+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-01T10:50:27.527236+00:00" />
+			<int key="@@index" value="178" />
+			<int key="@@case_index" value="44" />
+		</event>
+		<event>
+			<string key="Case" value="49" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-01T12:46:05.572927+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-01T12:46:05.572927+00:00" />
+			<int key="@@index" value="179" />
+			<int key="@@case_index" value="44" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<string key="Case" value="5" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-03T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-03T08:00:00+00:00" />
+			<int key="@@index" value="180" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="Case" value="5" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-03T08:37:18.522769+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-03T08:37:18.522769+00:00" />
+			<int key="@@index" value="181" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="Case" value="5" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-03T09:06:48.373192+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-03T09:06:48.373192+00:00" />
+			<int key="@@index" value="182" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="Case" value="5" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-03T10:12:14.228704+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-03T10:12:14.228704+00:00" />
+			<int key="@@index" value="183" />
+			<int key="@@case_index" value="45" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="50" />
+		<event>
+			<string key="Case" value="50" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-02T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-02T08:00:00+00:00" />
+			<int key="@@index" value="184" />
+			<int key="@@case_index" value="46" />
+		</event>
+		<event>
+			<string key="Case" value="50" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-02T09:58:25.695409+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-02T09:58:25.695409+00:00" />
+			<int key="@@index" value="185" />
+			<int key="@@case_index" value="46" />
+		</event>
+		<event>
+			<string key="Case" value="50" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-02T10:37:55.725049+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-02T10:37:55.725049+00:00" />
+			<int key="@@index" value="186" />
+			<int key="@@case_index" value="46" />
+		</event>
+		<event>
+			<string key="Case" value="50" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-02T12:20:18.935258+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-02T12:20:18.935258+00:00" />
+			<int key="@@index" value="187" />
+			<int key="@@case_index" value="46" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="51" />
+		<event>
+			<string key="Case" value="51" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-03T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-03T08:00:00+00:00" />
+			<int key="@@index" value="188" />
+			<int key="@@case_index" value="47" />
+		</event>
+		<event>
+			<string key="Case" value="51" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-03T09:17:34.106358+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-03T09:17:34.106358+00:00" />
+			<int key="@@index" value="189" />
+			<int key="@@case_index" value="47" />
+		</event>
+		<event>
+			<string key="Case" value="51" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-03T09:59:45.937385+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-03T09:59:45.937385+00:00" />
+			<int key="@@index" value="190" />
+			<int key="@@case_index" value="47" />
+		</event>
+		<event>
+			<string key="Case" value="51" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-03T12:07:05.117441+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-03T12:07:05.117441+00:00" />
+			<int key="@@index" value="191" />
+			<int key="@@case_index" value="47" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="52" />
+		<event>
+			<string key="Case" value="52" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-04T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-04T08:00:00+00:00" />
+			<int key="@@index" value="192" />
+			<int key="@@case_index" value="48" />
+		</event>
+		<event>
+			<string key="Case" value="52" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-04T09:11:22.943837+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-04T09:11:22.943837+00:00" />
+			<int key="@@index" value="193" />
+			<int key="@@case_index" value="48" />
+		</event>
+		<event>
+			<string key="Case" value="52" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-04T10:03:02.334475+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-04T10:03:02.334475+00:00" />
+			<int key="@@index" value="194" />
+			<int key="@@case_index" value="48" />
+		</event>
+		<event>
+			<string key="Case" value="52" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-04T11:08:43.891685+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-04T11:08:43.891685+00:00" />
+			<int key="@@index" value="195" />
+			<int key="@@case_index" value="48" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="53" />
+		<event>
+			<string key="Case" value="53" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-05T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-05T08:00:00+00:00" />
+			<int key="@@index" value="196" />
+			<int key="@@case_index" value="49" />
+		</event>
+		<event>
+			<string key="Case" value="53" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-05T09:49:51.370844+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-05T09:49:51.370844+00:00" />
+			<int key="@@index" value="197" />
+			<int key="@@case_index" value="49" />
+		</event>
+		<event>
+			<string key="Case" value="53" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-05T10:40:36.453147+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-05T10:40:36.453147+00:00" />
+			<int key="@@index" value="198" />
+			<int key="@@case_index" value="49" />
+		</event>
+		<event>
+			<string key="Case" value="53" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-05T12:18:09.097482+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-05T12:18:09.097482+00:00" />
+			<int key="@@index" value="199" />
+			<int key="@@case_index" value="49" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="54" />
+		<event>
+			<string key="Case" value="54" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-06T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-06T08:00:00+00:00" />
+			<int key="@@index" value="200" />
+			<int key="@@case_index" value="50" />
+		</event>
+		<event>
+			<string key="Case" value="54" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-06T09:18:41.037724+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-06T09:18:41.037724+00:00" />
+			<int key="@@index" value="201" />
+			<int key="@@case_index" value="50" />
+		</event>
+		<event>
+			<string key="Case" value="54" />
+			<string key="Activity" value="Diagnnosis" />
+			<date key="Timestamp" value="2025-02-06T09:54:05.257186+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:Diagnnosis)" />
+			<string key="concept:name" value="Diagnnosis" />
+			<date key="time:timestamp" value="2025-02-06T09:54:05.257186+00:00" />
+			<int key="@@index" value="202" />
+			<int key="@@case_index" value="50" />
+		</event>
+		<event>
+			<string key="Case" value="54" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-06T11:24:30.359833+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-06T11:24:30.359833+00:00" />
+			<int key="@@index" value="203" />
+			<int key="@@case_index" value="50" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="55" />
+		<event>
+			<string key="Case" value="55" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-07T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-07T08:00:00+00:00" />
+			<int key="@@index" value="204" />
+			<int key="@@case_index" value="51" />
+		</event>
+		<event>
+			<string key="Case" value="55" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-07T09:36:47.170232+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-07T09:36:47.170232+00:00" />
+			<int key="@@index" value="205" />
+			<int key="@@case_index" value="51" />
+		</event>
+		<event>
+			<string key="Case" value="55" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-07T10:22:03.392164+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-07T10:22:03.392164+00:00" />
+			<int key="@@index" value="206" />
+			<int key="@@case_index" value="51" />
+		</event>
+		<event>
+			<string key="Case" value="55" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-07T12:19:37.526339+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-07T12:19:37.526339+00:00" />
+			<int key="@@index" value="207" />
+			<int key="@@case_index" value="51" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="56" />
+		<event>
+			<string key="Case" value="56" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-08T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-08T08:00:00+00:00" />
+			<int key="@@index" value="208" />
+			<int key="@@case_index" value="52" />
+		</event>
+		<event>
+			<string key="Case" value="56" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-08T09:25:20.465895+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-08T09:25:20.465895+00:00" />
+			<int key="@@index" value="209" />
+			<int key="@@case_index" value="52" />
+		</event>
+		<event>
+			<string key="Case" value="56" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-08T10:14:13.432627+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-08T10:14:13.432627+00:00" />
+			<int key="@@index" value="210" />
+			<int key="@@case_index" value="52" />
+		</event>
+		<event>
+			<string key="Case" value="56" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-08T12:11:11.461069+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-08T12:11:11.461069+00:00" />
+			<int key="@@index" value="211" />
+			<int key="@@case_index" value="52" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="57" />
+		<event>
+			<string key="Case" value="57" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-09T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-09T08:00:00+00:00" />
+			<int key="@@index" value="212" />
+			<int key="@@case_index" value="53" />
+		</event>
+		<event>
+			<string key="Case" value="57" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-09T10:02:40.755996+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-09T10:02:40.755996+00:00" />
+			<int key="@@index" value="213" />
+			<int key="@@case_index" value="53" />
+		</event>
+		<event>
+			<string key="Case" value="57" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-09T11:30:36.610798+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-09T11:30:36.610798+00:00" />
+			<int key="@@index" value="214" />
+			<int key="@@case_index" value="53" />
+		</event>
+		<event>
+			<string key="Case" value="57" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-09T13:06:58.395134+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-09T13:06:58.395134+00:00" />
+			<int key="@@index" value="215" />
+			<int key="@@case_index" value="53" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="58" />
+		<event>
+			<string key="Case" value="58" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-10T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-10T08:00:00+00:00" />
+			<int key="@@index" value="216" />
+			<int key="@@case_index" value="54" />
+		</event>
+		<event>
+			<string key="Case" value="58" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-10T09:37:35.987640+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-10T09:37:35.987640+00:00" />
+			<int key="@@index" value="217" />
+			<int key="@@case_index" value="54" />
+		</event>
+		<event>
+			<string key="Case" value="58" />
+			<string key="Activity" value="DiagnoTsis" />
+			<date key="Timestamp" value="2025-02-10T10:02:42.662969+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:DiagnoTsis)" />
+			<string key="concept:name" value="DiagnoTsis" />
+			<date key="time:timestamp" value="2025-02-10T10:02:42.662969+00:00" />
+			<int key="@@index" value="218" />
+			<int key="@@case_index" value="54" />
+		</event>
+		<event>
+			<string key="Case" value="58" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-10T12:31:26.501662+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-10T12:31:26.501662+00:00" />
+			<int key="@@index" value="219" />
+			<int key="@@case_index" value="54" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59" />
+		<event>
+			<string key="Case" value="59" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-11T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-11T08:00:00+00:00" />
+			<int key="@@index" value="220" />
+			<int key="@@case_index" value="55" />
+		</event>
+		<event>
+			<string key="Case" value="59" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-11T09:39:13.167072+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-11T09:39:13.167072+00:00" />
+			<int key="@@index" value="221" />
+			<int key="@@case_index" value="55" />
+		</event>
+		<event>
+			<string key="Case" value="59" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-11T10:27:41.435006+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-11T10:27:41.435006+00:00" />
+			<int key="@@index" value="222" />
+			<int key="@@case_index" value="55" />
+		</event>
+		<event>
+			<string key="Case" value="59" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-11T12:19:30.097615+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-11T12:19:30.097615+00:00" />
+			<int key="@@index" value="223" />
+			<int key="@@case_index" value="55" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<string key="Case" value="6" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-03T11:21:26.579316+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-03T11:21:26.579316+00:00" />
+			<int key="@@index" value="224" />
+			<int key="@@case_index" value="56" />
+		</event>
+		<event>
+			<string key="Case" value="6" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-03T11:48:11.060754+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-03T11:48:11.060754+00:00" />
+			<int key="@@index" value="225" />
+			<int key="@@case_index" value="56" />
+		</event>
+		<event>
+			<string key="Case" value="6" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-03T12:22:49.248279+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-03T12:22:49.248279+00:00" />
+			<int key="@@index" value="226" />
+			<int key="@@case_index" value="56" />
+		</event>
+		<event>
+			<string key="Case" value="6" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-03T13:07:45.721357+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-03T13:07:45.721357+00:00" />
+			<int key="@@index" value="227" />
+			<int key="@@case_index" value="56" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="60" />
+		<event>
+			<string key="Case" value="60" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-12T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-12T08:00:00+00:00" />
+			<int key="@@index" value="228" />
+			<int key="@@case_index" value="57" />
+		</event>
+		<event>
+			<string key="Case" value="60" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-12T09:02:24.043926+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-12T09:02:24.043926+00:00" />
+			<int key="@@index" value="229" />
+			<int key="@@case_index" value="57" />
+		</event>
+		<event>
+			<string key="Case" value="60" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-12T10:56:34.172442+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-12T10:56:34.172442+00:00" />
+			<int key="@@index" value="230" />
+			<int key="@@case_index" value="57" />
+		</event>
+		<event>
+			<string key="Case" value="60" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-12T12:40:47.645848+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-12T12:40:47.645848+00:00" />
+			<int key="@@index" value="231" />
+			<int key="@@case_index" value="57" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="61" />
+		<event>
+			<string key="Case" value="61" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-13T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-13T08:00:00+00:00" />
+			<int key="@@index" value="232" />
+			<int key="@@case_index" value="58" />
+		</event>
+		<event>
+			<string key="Case" value="61" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-13T09:10:14.187850+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-13T09:10:14.187850+00:00" />
+			<int key="@@index" value="233" />
+			<int key="@@case_index" value="58" />
+		</event>
+		<event>
+			<string key="Case" value="61" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-13T09:52:15.674278+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-13T09:52:15.674278+00:00" />
+			<int key="@@index" value="234" />
+			<int key="@@case_index" value="58" />
+		</event>
+		<event>
+			<string key="Case" value="61" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-13T12:12:07.912448+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-13T12:12:07.912448+00:00" />
+			<int key="@@index" value="235" />
+			<int key="@@case_index" value="58" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="62" />
+		<event>
+			<string key="Case" value="62" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-14T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-14T08:00:00+00:00" />
+			<int key="@@index" value="236" />
+			<int key="@@case_index" value="59" />
+		</event>
+		<event>
+			<string key="Case" value="62" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-14T09:24:38.727288+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-14T09:24:38.727288+00:00" />
+			<int key="@@index" value="237" />
+			<int key="@@case_index" value="59" />
+		</event>
+		<event>
+			<string key="Case" value="62" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-14T11:04:58.332156+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-14T11:04:58.332156+00:00" />
+			<int key="@@index" value="238" />
+			<int key="@@case_index" value="59" />
+		</event>
+		<event>
+			<string key="Case" value="62" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-14T12:40:53.642198+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-14T12:40:53.642198+00:00" />
+			<int key="@@index" value="239" />
+			<int key="@@case_index" value="59" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="63" />
+		<event>
+			<string key="Case" value="63" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-15T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-15T08:00:00+00:00" />
+			<int key="@@index" value="240" />
+			<int key="@@case_index" value="60" />
+		</event>
+		<event>
+			<string key="Case" value="63" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-15T08:57:54.813317+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-15T08:57:54.813317+00:00" />
+			<int key="@@index" value="241" />
+			<int key="@@case_index" value="60" />
+		</event>
+		<event>
+			<string key="Case" value="63" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-15T10:22:17.814172+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-15T10:22:17.814172+00:00" />
+			<int key="@@index" value="242" />
+			<int key="@@case_index" value="60" />
+		</event>
+		<event>
+			<string key="Case" value="63" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-15T12:17:33.416358+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-15T12:17:33.416358+00:00" />
+			<int key="@@index" value="243" />
+			<int key="@@case_index" value="60" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="64" />
+		<event>
+			<string key="Case" value="64" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-16T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-16T08:00:00+00:00" />
+			<int key="@@index" value="244" />
+			<int key="@@case_index" value="61" />
+		</event>
+		<event>
+			<string key="Case" value="64" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-16T09:49:52.000119+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-16T09:49:52.000119+00:00" />
+			<int key="@@index" value="245" />
+			<int key="@@case_index" value="61" />
+		</event>
+		<event>
+			<string key="Case" value="64" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-16T11:39:56.070482+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-16T11:39:56.070482+00:00" />
+			<int key="@@index" value="246" />
+			<int key="@@case_index" value="61" />
+		</event>
+		<event>
+			<string key="Case" value="64" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-16T14:00:15.250179+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-16T14:00:15.250179+00:00" />
+			<int key="@@index" value="247" />
+			<int key="@@case_index" value="61" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="65" />
+		<event>
+			<string key="Case" value="65" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-17T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-17T08:00:00+00:00" />
+			<int key="@@index" value="248" />
+			<int key="@@case_index" value="62" />
+		</event>
+		<event>
+			<string key="Case" value="65" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-17T09:24:15.740084+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-17T09:24:15.740084+00:00" />
+			<int key="@@index" value="249" />
+			<int key="@@case_index" value="62" />
+		</event>
+		<event>
+			<string key="Case" value="65" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-17T11:27:00.882760+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-17T11:27:00.882760+00:00" />
+			<int key="@@index" value="250" />
+			<int key="@@case_index" value="62" />
+		</event>
+		<event>
+			<string key="Case" value="65" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-17T12:46:46.296984+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-17T12:46:46.296984+00:00" />
+			<int key="@@index" value="251" />
+			<int key="@@case_index" value="62" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="66" />
+		<event>
+			<string key="Case" value="66" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-19T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-19T08:00:00+00:00" />
+			<int key="@@index" value="252" />
+			<int key="@@case_index" value="63" />
+		</event>
+		<event>
+			<string key="Case" value="66" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-19T09:41:47.903147+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-19T09:41:47.903147+00:00" />
+			<int key="@@index" value="253" />
+			<int key="@@case_index" value="63" />
+		</event>
+		<event>
+			<string key="Case" value="66" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-19T11:04:42.480182+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-19T11:04:42.480182+00:00" />
+			<int key="@@index" value="254" />
+			<int key="@@case_index" value="63" />
+		</event>
+		<event>
+			<string key="Case" value="66" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-19T12:15:44.253197+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-19T12:15:44.253197+00:00" />
+			<int key="@@index" value="255" />
+			<int key="@@case_index" value="63" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="67" />
+		<event>
+			<string key="Case" value="67" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-20T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-20T08:00:00+00:00" />
+			<int key="@@index" value="256" />
+			<int key="@@case_index" value="64" />
+		</event>
+		<event>
+			<string key="Case" value="67" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-20T09:26:16.377240+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-20T09:26:16.377240+00:00" />
+			<int key="@@index" value="257" />
+			<int key="@@case_index" value="64" />
+		</event>
+		<event>
+			<string key="Case" value="67" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-20T10:06:46.375695+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-20T10:06:46.375695+00:00" />
+			<int key="@@index" value="258" />
+			<int key="@@case_index" value="64" />
+		</event>
+		<event>
+			<string key="Case" value="67" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-20T11:24:02.860781+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-20T11:24:02.860781+00:00" />
+			<int key="@@index" value="259" />
+			<int key="@@case_index" value="64" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="68" />
+		<event>
+			<string key="Case" value="68" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-21T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-21T08:00:00+00:00" />
+			<int key="@@index" value="260" />
+			<int key="@@case_index" value="65" />
+		</event>
+		<event>
+			<string key="Case" value="68" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-21T09:23:13.166565+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-21T09:23:13.166565+00:00" />
+			<int key="@@index" value="261" />
+			<int key="@@case_index" value="65" />
+		</event>
+		<event>
+			<string key="Case" value="68" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-21T10:53:28.380593+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-21T10:53:28.380593+00:00" />
+			<int key="@@index" value="262" />
+			<int key="@@case_index" value="65" />
+		</event>
+		<event>
+			<string key="Case" value="68" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-21T12:44:36.750353+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-21T12:44:36.750353+00:00" />
+			<int key="@@index" value="263" />
+			<int key="@@case_index" value="65" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="69" />
+		<event>
+			<string key="Case" value="69" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-22T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-22T08:00:00+00:00" />
+			<int key="@@index" value="264" />
+			<int key="@@case_index" value="66" />
+		</event>
+		<event>
+			<string key="Case" value="69" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-22T09:12:45.290803+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-22T09:12:45.290803+00:00" />
+			<int key="@@index" value="265" />
+			<int key="@@case_index" value="66" />
+		</event>
+		<event>
+			<string key="Case" value="69" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-22T10:29:20.035429+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-22T10:29:20.035429+00:00" />
+			<int key="@@index" value="266" />
+			<int key="@@case_index" value="66" />
+		</event>
+		<event>
+			<string key="Case" value="69" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-22T12:47:04.408178+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-22T12:47:04.408178+00:00" />
+			<int key="@@index" value="267" />
+			<int key="@@case_index" value="66" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<string key="Case" value="7" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-04T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-04T08:00:00+00:00" />
+			<int key="@@index" value="268" />
+			<int key="@@case_index" value="67" />
+		</event>
+		<event>
+			<string key="Case" value="7" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-01-04T08:35:18.417130+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-01-04T08:35:18.417130+00:00" />
+			<int key="@@index" value="269" />
+			<int key="@@case_index" value="67" />
+		</event>
+		<event>
+			<string key="Case" value="7" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-04T09:17:50.488636+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-04T09:17:50.488636+00:00" />
+			<int key="@@index" value="270" />
+			<int key="@@case_index" value="67" />
+		</event>
+		<event>
+			<string key="Case" value="7" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-04T10:07:18.803012+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-04T10:07:18.803012+00:00" />
+			<int key="@@index" value="271" />
+			<int key="@@case_index" value="67" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="70" />
+		<event>
+			<string key="Case" value="70" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-23T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-23T08:00:00+00:00" />
+			<int key="@@index" value="272" />
+			<int key="@@case_index" value="68" />
+		</event>
+		<event>
+			<string key="Case" value="70" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-23T09:14:24.964103+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-23T09:14:24.964103+00:00" />
+			<int key="@@index" value="273" />
+			<int key="@@case_index" value="68" />
+		</event>
+		<event>
+			<string key="Case" value="70" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-23T11:11:18.889893+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-23T11:11:18.889893+00:00" />
+			<int key="@@index" value="274" />
+			<int key="@@case_index" value="68" />
+		</event>
+		<event>
+			<string key="Case" value="70" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-23T13:22:35.699626+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-23T13:22:35.699626+00:00" />
+			<int key="@@index" value="275" />
+			<int key="@@case_index" value="68" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="71" />
+		<event>
+			<string key="Case" value="71" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-24T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-24T08:00:00+00:00" />
+			<int key="@@index" value="276" />
+			<int key="@@case_index" value="69" />
+		</event>
+		<event>
+			<string key="Case" value="71" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-24T09:30:23.948414+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-24T09:30:23.948414+00:00" />
+			<int key="@@index" value="277" />
+			<int key="@@case_index" value="69" />
+		</event>
+		<event>
+			<string key="Case" value="71" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-24T10:05:20.386286+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-24T10:05:20.386286+00:00" />
+			<int key="@@index" value="278" />
+			<int key="@@case_index" value="69" />
+		</event>
+		<event>
+			<string key="Case" value="71" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-24T12:21:49.972558+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-24T12:21:49.972558+00:00" />
+			<int key="@@index" value="279" />
+			<int key="@@case_index" value="69" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="72" />
+		<event>
+			<string key="Case" value="72" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-25T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-25T08:00:00+00:00" />
+			<int key="@@index" value="280" />
+			<int key="@@case_index" value="70" />
+		</event>
+		<event>
+			<string key="Case" value="72" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-25T09:21:08.434277+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-25T09:21:08.434277+00:00" />
+			<int key="@@index" value="281" />
+			<int key="@@case_index" value="70" />
+		</event>
+		<event>
+			<string key="Case" value="72" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-25T10:46:55.515598+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-25T10:46:55.515598+00:00" />
+			<int key="@@index" value="282" />
+			<int key="@@case_index" value="70" />
+		</event>
+		<event>
+			<string key="Case" value="72" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-25T12:46:31.808638+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-25T12:46:31.808638+00:00" />
+			<int key="@@index" value="283" />
+			<int key="@@case_index" value="70" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="73" />
+		<event>
+			<string key="Case" value="73" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-26T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-26T08:00:00+00:00" />
+			<int key="@@index" value="284" />
+			<int key="@@case_index" value="71" />
+		</event>
+		<event>
+			<string key="Case" value="73" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-26T09:28:28.581101+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-26T09:28:28.581101+00:00" />
+			<int key="@@index" value="285" />
+			<int key="@@case_index" value="71" />
+		</event>
+		<event>
+			<string key="Case" value="73" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-26T10:20:43.092827+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-26T10:20:43.092827+00:00" />
+			<int key="@@index" value="286" />
+			<int key="@@case_index" value="71" />
+		</event>
+		<event>
+			<string key="Case" value="73" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-26T11:53:24.519458+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-26T11:53:24.519458+00:00" />
+			<int key="@@index" value="287" />
+			<int key="@@case_index" value="71" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="74" />
+		<event>
+			<string key="Case" value="74" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-27T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-27T08:00:00+00:00" />
+			<int key="@@index" value="288" />
+			<int key="@@case_index" value="72" />
+		</event>
+		<event>
+			<string key="Case" value="74" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-02-27T09:37:56.851490+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-02-27T09:37:56.851490+00:00" />
+			<int key="@@index" value="289" />
+			<int key="@@case_index" value="72" />
+		</event>
+		<event>
+			<string key="Case" value="74" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-27T10:50:32.332085+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-27T10:50:32.332085+00:00" />
+			<int key="@@index" value="290" />
+			<int key="@@case_index" value="72" />
+		</event>
+		<event>
+			<string key="Case" value="74" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-27T12:44:17.034740+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-27T12:44:17.034740+00:00" />
+			<int key="@@index" value="291" />
+			<int key="@@case_index" value="72" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="75" />
+		<event>
+			<string key="Case" value="75" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-02-28T09:25:23.379130+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-02-28T09:25:23.379130+00:00" />
+			<int key="@@index" value="292" />
+			<int key="@@case_index" value="73" />
+		</event>
+		<event>
+			<string key="Case" value="75" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-02-28T09:51:04.526382+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-02-28T09:51:04.526382+00:00" />
+			<int key="@@index" value="293" />
+			<int key="@@case_index" value="73" />
+		</event>
+		<event>
+			<string key="Case" value="75" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-02-28T12:06:25.107846+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-02-28T12:06:25.107846+00:00" />
+			<int key="@@index" value="294" />
+			<int key="@@case_index" value="73" />
+		</event>
+		<event>
+			<string key="Case" value="75" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-28T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-02-28 08:00:00)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-28T08:00:00+00:00" />
+			<int key="@@index" value="295" />
+			<int key="@@case_index" value="73" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="76" />
+		<event>
+			<string key="Case" value="76" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-01T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-03-01 08:00:00)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-01T08:00:00+00:00" />
+			<int key="@@index" value="296" />
+			<int key="@@case_index" value="74" />
+		</event>
+		<event>
+			<string key="Case" value="76" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-01T10:06:30.712040+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-01T10:06:30.712040+00:00" />
+			<int key="@@index" value="297" />
+			<int key="@@case_index" value="74" />
+		</event>
+		<event>
+			<string key="Case" value="76" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-03-01T10:42:40.505049+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-03-01T10:42:40.505049+00:00" />
+			<int key="@@index" value="298" />
+			<int key="@@case_index" value="74" />
+		</event>
+		<event>
+			<string key="Case" value="76" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-01T13:37:52.534397+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-01T13:37:52.534397+00:00" />
+			<int key="@@index" value="299" />
+			<int key="@@case_index" value="74" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="77" />
+		<event>
+			<string key="Case" value="77" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-02-02T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-03-02 08:00:00)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-02-02T08:00:00+00:00" />
+			<int key="@@index" value="300" />
+			<int key="@@case_index" value="75" />
+		</event>
+		<event>
+			<string key="Case" value="77" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-02T10:54:33.042691+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-02T10:54:33.042691+00:00" />
+			<int key="@@index" value="301" />
+			<int key="@@case_index" value="75" />
+		</event>
+		<event>
+			<string key="Case" value="77" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-03-02T11:34:12.437578+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-03-02T11:34:12.437578+00:00" />
+			<int key="@@index" value="302" />
+			<int key="@@case_index" value="75" />
+		</event>
+		<event>
+			<string key="Case" value="77" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-02T13:46:25.217787+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-02T13:46:25.217787+00:00" />
+			<int key="@@index" value="303" />
+			<int key="@@case_index" value="75" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="78" />
+		<event>
+			<string key="Case" value="78" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-06T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-06T08:00:00+00:00" />
+			<int key="@@index" value="304" />
+			<int key="@@case_index" value="76" />
+		</event>
+		<event>
+			<string key="Case" value="78" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-06T10:31:02.657915+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-06T10:31:02.657915+00:00" />
+			<int key="@@index" value="305" />
+			<int key="@@case_index" value="76" />
+		</event>
+		<event>
+			<string key="Case" value="78" />
+			<string key="Activity" value="DiaNgnosis" />
+			<date key="Timestamp" value="2025-03-06T11:03:36.725427+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:DiaNgnosis)" />
+			<string key="concept:name" value="DiaNgnosis" />
+			<date key="time:timestamp" value="2025-03-06T11:03:36.725427+00:00" />
+			<int key="@@index" value="306" />
+			<int key="@@case_index" value="76" />
+		</event>
+		<event>
+			<string key="Case" value="78" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-06T14:09:02.874598+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-06T14:09:02.874598+00:00" />
+			<int key="@@index" value="307" />
+			<int key="@@case_index" value="76" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="79" />
+		<event>
+			<string key="Case" value="79" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-09T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-09T08:00:00+00:00" />
+			<int key="@@index" value="308" />
+			<int key="@@case_index" value="77" />
+		</event>
+		<event>
+			<string key="Case" value="79" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-09T09:55:34.196738+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-09T09:55:34.196738+00:00" />
+			<int key="@@index" value="309" />
+			<int key="@@case_index" value="77" />
+		</event>
+		<event>
+			<string key="Case" value="79" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-03-09T10:37:37.346324+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-03-09T10:37:37.346324+00:00" />
+			<int key="@@index" value="310" />
+			<int key="@@case_index" value="77" />
+		</event>
+		<event>
+			<string key="Case" value="79" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-09T13:37:21.217139+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-09T13:37:21.217139+00:00" />
+			<int key="@@index" value="311" />
+			<int key="@@case_index" value="77" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8" />
+		<event>
+			<string key="Case" value="8" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2024-12-04T10:57:28.657959+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="inadvertent time(month:2025-01-04 10:57:28.657959)" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2024-12-04T10:57:28.657959+00:00" />
+			<int key="@@index" value="312" />
+			<int key="@@case_index" value="78" />
+		</event>
+		<event>
+			<string key="Case" value="8" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-04T11:36:31.488960+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-04T11:36:31.488960+00:00" />
+			<int key="@@index" value="313" />
+			<int key="@@case_index" value="78" />
+		</event>
+		<event>
+			<string key="Case" value="8" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-04T12:18:17.056492+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-04T12:18:17.056492+00:00" />
+			<int key="@@index" value="314" />
+			<int key="@@case_index" value="78" />
+		</event>
+		<event>
+			<string key="Case" value="8" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-04T12:59:48.318175+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-04T12:59:48.318175+00:00" />
+			<int key="@@index" value="315" />
+			<int key="@@case_index" value="78" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="80" />
+		<event>
+			<string key="Case" value="80" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-11T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-11T08:00:00+00:00" />
+			<int key="@@index" value="316" />
+			<int key="@@case_index" value="79" />
+		</event>
+		<event>
+			<string key="Case" value="80" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-11T10:07:35.807077+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-11T10:07:35.807077+00:00" />
+			<int key="@@index" value="317" />
+			<int key="@@case_index" value="79" />
+		</event>
+		<event>
+			<string key="Case" value="80" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-03-11T10:45:55.822224+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-03-11T10:45:55.822224+00:00" />
+			<int key="@@index" value="318" />
+			<int key="@@case_index" value="79" />
+		</event>
+		<event>
+			<string key="Case" value="80" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-11T13:19:49.063372+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-11T13:19:49.063372+00:00" />
+			<int key="@@index" value="319" />
+			<int key="@@case_index" value="79" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="81" />
+		<event>
+			<string key="Case" value="81" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-12T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-12T08:00:00+00:00" />
+			<int key="@@index" value="320" />
+			<int key="@@case_index" value="80" />
+		</event>
+		<event>
+			<string key="Case" value="81" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-12T10:04:58.401138+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-12T10:04:58.401138+00:00" />
+			<int key="@@index" value="321" />
+			<int key="@@case_index" value="80" />
+		</event>
+		<event>
+			<string key="Case" value="81" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-03-12T10:38:52.177076+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-03-12T10:38:52.177076+00:00" />
+			<int key="@@index" value="322" />
+			<int key="@@case_index" value="80" />
+		</event>
+		<event>
+			<string key="Case" value="81" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-12T14:03:00.292881+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-12T14:03:00.292881+00:00" />
+			<int key="@@index" value="323" />
+			<int key="@@case_index" value="80" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="82" />
+		<event>
+			<string key="Case" value="82" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-17T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-17T08:00:00+00:00" />
+			<int key="@@index" value="324" />
+			<int key="@@case_index" value="81" />
+		</event>
+		<event>
+			<string key="Case" value="82" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-17T10:17:34.082912+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-17T10:17:34.082912+00:00" />
+			<int key="@@index" value="325" />
+			<int key="@@case_index" value="81" />
+		</event>
+		<event>
+			<string key="Case" value="82" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-03-17T10:58:30.559150+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-03-17T10:58:30.559150+00:00" />
+			<int key="@@index" value="326" />
+			<int key="@@case_index" value="81" />
+		</event>
+		<event>
+			<string key="Case" value="82" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-17T14:13:40.654660+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-17T14:13:40.654660+00:00" />
+			<int key="@@index" value="327" />
+			<int key="@@case_index" value="81" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="83" />
+		<event>
+			<string key="Case" value="83" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-20T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-20T08:00:00+00:00" />
+			<int key="@@index" value="328" />
+			<int key="@@case_index" value="82" />
+		</event>
+		<event>
+			<string key="Case" value="83" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-20T09:59:44.963082+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-20T09:59:44.963082+00:00" />
+			<int key="@@index" value="329" />
+			<int key="@@case_index" value="82" />
+		</event>
+		<event>
+			<string key="Case" value="83" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-03-20T10:51:27.853978+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-03-20T10:51:27.853978+00:00" />
+			<int key="@@index" value="330" />
+			<int key="@@case_index" value="82" />
+		</event>
+		<event>
+			<string key="Case" value="83" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-20T14:03:58.980464+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-20T14:03:58.980464+00:00" />
+			<int key="@@index" value="331" />
+			<int key="@@case_index" value="82" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="84" />
+		<event>
+			<string key="Case" value="84" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-23T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-23T08:00:00+00:00" />
+			<int key="@@index" value="332" />
+			<int key="@@case_index" value="83" />
+		</event>
+		<event>
+			<string key="Case" value="84" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-23T10:23:22.780966+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-23T10:23:22.780966+00:00" />
+			<int key="@@index" value="333" />
+			<int key="@@case_index" value="83" />
+		</event>
+		<event>
+			<string key="Case" value="84" />
+			<string key="Activity" value="Diganosis" />
+			<date key="Timestamp" value="2025-03-23T11:08:18.079541+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:Diganosis)" />
+			<string key="concept:name" value="Diganosis" />
+			<date key="time:timestamp" value="2025-03-23T11:08:18.079541+00:00" />
+			<int key="@@index" value="334" />
+			<int key="@@case_index" value="83" />
+		</event>
+		<event>
+			<string key="Case" value="84" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-23T13:48:42.275273+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-23T13:48:42.275273+00:00" />
+			<int key="@@index" value="335" />
+			<int key="@@case_index" value="83" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="85" />
+		<event>
+			<string key="Case" value="85" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-03-27T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-03-27T08:00:00+00:00" />
+			<int key="@@index" value="336" />
+			<int key="@@case_index" value="84" />
+		</event>
+		<event>
+			<string key="Case" value="85" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-03-27T09:40:51.704362+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-03-27T09:40:51.704362+00:00" />
+			<int key="@@index" value="337" />
+			<int key="@@case_index" value="84" />
+		</event>
+		<event>
+			<string key="Case" value="85" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-03-27T09:59:32.664591+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-03-27T09:59:32.664591+00:00" />
+			<int key="@@index" value="338" />
+			<int key="@@case_index" value="84" />
+		</event>
+		<event>
+			<string key="Case" value="85" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-03-27T13:01:49.960576+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-03-27T13:01:49.960576+00:00" />
+			<int key="@@index" value="339" />
+			<int key="@@case_index" value="84" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="86" />
+		<event>
+			<string key="Case" value="86" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-01T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-01T08:00:00+00:00" />
+			<int key="@@index" value="340" />
+			<int key="@@case_index" value="85" />
+		</event>
+		<event>
+			<string key="Case" value="86" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-01T10:49:02.857937+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-01T10:49:02.857937+00:00" />
+			<int key="@@index" value="341" />
+			<int key="@@case_index" value="85" />
+		</event>
+		<event>
+			<string key="Case" value="86" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-04-01T11:20:12.930988+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-04-01T11:20:12.930988+00:00" />
+			<int key="@@index" value="342" />
+			<int key="@@case_index" value="85" />
+		</event>
+		<event>
+			<string key="Case" value="86" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-01T13:38:35.058854+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-01T13:38:35.058854+00:00" />
+			<int key="@@index" value="343" />
+			<int key="@@case_index" value="85" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="87" />
+		<event>
+			<string key="Case" value="87" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-02T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-02T08:00:00+00:00" />
+			<int key="@@index" value="344" />
+			<int key="@@case_index" value="86" />
+		</event>
+		<event>
+			<string key="Case" value="87" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-02T10:21:18.949603+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-02T10:21:18.949603+00:00" />
+			<int key="@@index" value="345" />
+			<int key="@@case_index" value="86" />
+		</event>
+		<event>
+			<string key="Case" value="87" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-04-02T11:05:06.387021+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-04-02T11:05:06.387021+00:00" />
+			<int key="@@index" value="346" />
+			<int key="@@case_index" value="86" />
+		</event>
+		<event>
+			<string key="Case" value="87" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-02T14:03:23.444057+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-02T14:03:23.444057+00:00" />
+			<int key="@@index" value="347" />
+			<int key="@@case_index" value="86" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="88" />
+		<event>
+			<string key="Case" value="88" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-03T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-03T08:00:00+00:00" />
+			<int key="@@index" value="348" />
+			<int key="@@case_index" value="87" />
+		</event>
+		<event>
+			<string key="Case" value="88" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-03T09:36:56.954584+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-03T09:36:56.954584+00:00" />
+			<int key="@@index" value="349" />
+			<int key="@@case_index" value="87" />
+		</event>
+		<event>
+			<string key="Case" value="88" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-04-03T10:29:30.657715+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-04-03T10:29:30.657715+00:00" />
+			<int key="@@index" value="350" />
+			<int key="@@case_index" value="87" />
+		</event>
+		<event>
+			<string key="Case" value="88" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-03T13:14:16.983790+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-03T13:14:16.983790+00:00" />
+			<int key="@@index" value="351" />
+			<int key="@@case_index" value="87" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="89" />
+		<event>
+			<string key="Case" value="89" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-05T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-05T08:00:00+00:00" />
+			<int key="@@index" value="352" />
+			<int key="@@case_index" value="88" />
+		</event>
+		<event>
+			<string key="Case" value="89" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-05T10:13:44.175461+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-05T10:13:44.175461+00:00" />
+			<int key="@@index" value="353" />
+			<int key="@@case_index" value="88" />
+		</event>
+		<event>
+			<string key="Case" value="89" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-04-05T10:47:04.903362+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-04-05T10:47:04.903362+00:00" />
+			<int key="@@index" value="354" />
+			<int key="@@case_index" value="88" />
+		</event>
+		<event>
+			<string key="Case" value="89" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-05T12:56:28.448320+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-05T12:56:28.448320+00:00" />
+			<int key="@@index" value="355" />
+			<int key="@@case_index" value="88" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9" />
+		<event>
+			<string key="Case" value="9" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-01-05T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-01-05T08:00:00+00:00" />
+			<int key="@@index" value="356" />
+			<int key="@@case_index" value="89" />
+		</event>
+		<event>
+			<string key="Case" value="9" />
+			<string key="Activity" value="Lab Test" />
+			<date key="Timestamp" value="2025-01-05T08:33:26.259297+00:00" />
+			<string key="Resource" value="Lab Technician 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Lab Test" />
+			<date key="time:timestamp" value="2025-01-05T08:33:26.259297+00:00" />
+			<int key="@@index" value="357" />
+			<int key="@@case_index" value="89" />
+		</event>
+		<event>
+			<string key="Case" value="9" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-01-05T09:28:05.127027+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-01-05T09:28:05.127027+00:00" />
+			<int key="@@index" value="358" />
+			<int key="@@case_index" value="89" />
+		</event>
+		<event>
+			<string key="Case" value="9" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-01-05T10:22:40.475898+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-01-05T10:22:40.475898+00:00" />
+			<int key="@@index" value="359" />
+			<int key="@@case_index" value="89" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="90" />
+		<event>
+			<string key="Case" value="90" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-10T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-10T08:00:00+00:00" />
+			<int key="@@index" value="360" />
+			<int key="@@case_index" value="90" />
+		</event>
+		<event>
+			<string key="Case" value="90" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-10T10:38:59.159467+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-10T10:38:59.159467+00:00" />
+			<int key="@@index" value="361" />
+			<int key="@@case_index" value="90" />
+		</event>
+		<event>
+			<string key="Case" value="90" />
+			<string key="Activity" value="Diagneosis" />
+			<date key="Timestamp" value="2025-04-10T11:32:14.317745+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:Diagneosis)" />
+			<string key="concept:name" value="Diagneosis" />
+			<date key="time:timestamp" value="2025-04-10T11:32:14.317745+00:00" />
+			<int key="@@index" value="362" />
+			<int key="@@case_index" value="90" />
+		</event>
+		<event>
+			<string key="Case" value="90" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-10T13:59:56.163457+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-10T13:59:56.163457+00:00" />
+			<int key="@@index" value="363" />
+			<int key="@@case_index" value="90" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="91" />
+		<event>
+			<string key="Case" value="91" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-11T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-11T08:00:00+00:00" />
+			<int key="@@index" value="364" />
+			<int key="@@case_index" value="91" />
+		</event>
+		<event>
+			<string key="Case" value="91" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-11T09:49:10.585660+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-11T09:49:10.585660+00:00" />
+			<int key="@@index" value="365" />
+			<int key="@@case_index" value="91" />
+		</event>
+		<event>
+			<string key="Case" value="91" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-04-11T10:33:37.417575+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-04-11T10:33:37.417575+00:00" />
+			<int key="@@index" value="366" />
+			<int key="@@case_index" value="91" />
+		</event>
+		<event>
+			<string key="Case" value="91" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-11T13:54:44.826057+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-11T13:54:44.826057+00:00" />
+			<int key="@@index" value="367" />
+			<int key="@@case_index" value="91" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="92" />
+		<event>
+			<string key="Case" value="92" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-18T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-18T08:00:00+00:00" />
+			<int key="@@index" value="368" />
+			<int key="@@case_index" value="92" />
+		</event>
+		<event>
+			<string key="Case" value="92" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-18T09:42:11.792832+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-18T09:42:11.792832+00:00" />
+			<int key="@@index" value="369" />
+			<int key="@@case_index" value="92" />
+		</event>
+		<event>
+			<string key="Case" value="92" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-04-18T10:07:23.249287+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-04-18T10:07:23.249287+00:00" />
+			<int key="@@index" value="370" />
+			<int key="@@case_index" value="92" />
+		</event>
+		<event>
+			<string key="Case" value="92" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-18T13:07:24.131778+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-18T13:07:24.131778+00:00" />
+			<int key="@@index" value="371" />
+			<int key="@@case_index" value="92" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="93" />
+		<event>
+			<string key="Case" value="93" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-26T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-26T08:00:00+00:00" />
+			<int key="@@index" value="372" />
+			<int key="@@case_index" value="93" />
+		</event>
+		<event>
+			<string key="Case" value="93" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-26T09:18:34.785422+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-26T09:18:34.785422+00:00" />
+			<int key="@@index" value="373" />
+			<int key="@@case_index" value="93" />
+		</event>
+		<event>
+			<string key="Case" value="93" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-04-26T09:56:39.871795+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-04-26T09:56:39.871795+00:00" />
+			<int key="@@index" value="374" />
+			<int key="@@case_index" value="93" />
+		</event>
+		<event>
+			<string key="Case" value="93" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-26T12:43:24.443500+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-26T12:43:24.443500+00:00" />
+			<int key="@@index" value="375" />
+			<int key="@@case_index" value="93" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="94" />
+		<event>
+			<string key="Case" value="94" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-27T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-27T08:00:00+00:00" />
+			<int key="@@index" value="376" />
+			<int key="@@case_index" value="94" />
+		</event>
+		<event>
+			<string key="Case" value="94" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-27T10:42:35.934810+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-27T10:42:35.934810+00:00" />
+			<int key="@@index" value="377" />
+			<int key="@@case_index" value="94" />
+		</event>
+		<event>
+			<string key="Case" value="94" />
+			<string key="Activity" value="DiaCgnosis" />
+			<date key="Timestamp" value="2025-04-27T11:17:32.223000+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="distorted label(Diagnosis:DiaCgnosis)" />
+			<string key="concept:name" value="DiaCgnosis" />
+			<date key="time:timestamp" value="2025-04-27T11:17:32.223000+00:00" />
+			<int key="@@index" value="378" />
+			<int key="@@case_index" value="94" />
+		</event>
+		<event>
+			<string key="Case" value="94" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-27T13:51:45.131194+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-27T13:51:45.131194+00:00" />
+			<int key="@@index" value="379" />
+			<int key="@@case_index" value="94" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="95" />
+		<event>
+			<string key="Case" value="95" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-04-30T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-04-30T08:00:00+00:00" />
+			<int key="@@index" value="380" />
+			<int key="@@case_index" value="95" />
+		</event>
+		<event>
+			<string key="Case" value="95" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-04-30T10:29:11.188345+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-04-30T10:29:11.188345+00:00" />
+			<int key="@@index" value="381" />
+			<int key="@@case_index" value="95" />
+		</event>
+		<event>
+			<string key="Case" value="95" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-04-30T11:15:15.378719+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-04-30T11:15:15.378719+00:00" />
+			<int key="@@index" value="382" />
+			<int key="@@case_index" value="95" />
+		</event>
+		<event>
+			<string key="Case" value="95" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-04-30T14:10:47.890759+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-04-30T14:10:47.890759+00:00" />
+			<int key="@@index" value="383" />
+			<int key="@@case_index" value="95" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="96" />
+		<event>
+			<string key="Case" value="96" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-05-04T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-05-04T08:00:00+00:00" />
+			<int key="@@index" value="384" />
+			<int key="@@case_index" value="96" />
+		</event>
+		<event>
+			<string key="Case" value="96" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-05-04T10:17:08.813930+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-05-04T10:17:08.813930+00:00" />
+			<int key="@@index" value="385" />
+			<int key="@@case_index" value="96" />
+		</event>
+		<event>
+			<string key="Case" value="96" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-05-04T10:54:07.994770+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-05-04T10:54:07.994770+00:00" />
+			<int key="@@index" value="386" />
+			<int key="@@case_index" value="96" />
+		</event>
+		<event>
+			<string key="Case" value="96" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-05-04T13:32:18.001201+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-05-04T13:32:18.001201+00:00" />
+			<int key="@@index" value="387" />
+			<int key="@@case_index" value="96" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="97" />
+		<event>
+			<string key="Case" value="97" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-05-05T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-05-05T08:00:00+00:00" />
+			<int key="@@index" value="388" />
+			<int key="@@case_index" value="97" />
+		</event>
+		<event>
+			<string key="Case" value="97" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-05-05T09:51:35.412309+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-05-05T09:51:35.412309+00:00" />
+			<int key="@@index" value="389" />
+			<int key="@@case_index" value="97" />
+		</event>
+		<event>
+			<string key="Case" value="97" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-05-05T10:30:11.043616+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-05-05T10:30:11.043616+00:00" />
+			<int key="@@index" value="390" />
+			<int key="@@case_index" value="97" />
+		</event>
+		<event>
+			<string key="Case" value="97" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-05-05T13:26:05.162750+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-05-05T13:26:05.162750+00:00" />
+			<int key="@@index" value="391" />
+			<int key="@@case_index" value="97" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="98" />
+		<event>
+			<string key="Case" value="98" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-05-08T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-05-08T08:00:00+00:00" />
+			<int key="@@index" value="392" />
+			<int key="@@case_index" value="98" />
+		</event>
+		<event>
+			<string key="Case" value="98" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-05-08T09:55:31.901561+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-05-08T09:55:31.901561+00:00" />
+			<int key="@@index" value="393" />
+			<int key="@@case_index" value="98" />
+		</event>
+		<event>
+			<string key="Case" value="98" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-05-08T10:52:00.617841+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-05-08T10:52:00.617841+00:00" />
+			<int key="@@index" value="394" />
+			<int key="@@case_index" value="98" />
+		</event>
+		<event>
+			<string key="Case" value="98" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-05-08T13:41:54.438590+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-05-08T13:41:54.438590+00:00" />
+			<int key="@@index" value="395" />
+			<int key="@@case_index" value="98" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="99" />
+		<event>
+			<string key="Case" value="99" />
+			<string key="Activity" value="Patient Registration" />
+			<date key="Timestamp" value="2025-05-09T08:00:00+00:00" />
+			<string key="Resource" value="Receptionist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Patient Registration" />
+			<date key="time:timestamp" value="2025-05-09T08:00:00+00:00" />
+			<int key="@@index" value="396" />
+			<int key="@@case_index" value="99" />
+		</event>
+		<event>
+			<string key="Case" value="99" />
+			<string key="Activity" value="X-Ray Scan" />
+			<date key="Timestamp" value="2025-05-09T10:22:22.499493+00:00" />
+			<string key="Resource" value="Radiologist 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="X-Ray Scan" />
+			<date key="time:timestamp" value="2025-05-09T10:22:22.499493+00:00" />
+			<int key="@@index" value="397" />
+			<int key="@@case_index" value="99" />
+		</event>
+		<event>
+			<string key="Case" value="99" />
+			<string key="Activity" value="Diagnosis" />
+			<date key="Timestamp" value="2025-05-09T10:45:14.166268+00:00" />
+			<string key="Resource" value="Doctor 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Diagnosis" />
+			<date key="time:timestamp" value="2025-05-09T10:45:14.166268+00:00" />
+			<int key="@@index" value="398" />
+			<int key="@@case_index" value="99" />
+		</event>
+		<event>
+			<string key="Case" value="99" />
+			<string key="Activity" value="Treatment Evaluation" />
+			<date key="Timestamp" value="2025-05-09T13:36:55.036044+00:00" />
+			<string key="Resource" value="Nurse 1" />
+			<string key="label" value="" />
+			<string key="concept:name" value="Treatment Evaluation" />
+			<date key="time:timestamp" value="2025-05-09T13:36:55.036044+00:00" />
+			<int key="@@index" value="399" />
+			<int key="@@case_index" value="99" />
+		</event>
+	</trace>
+</log>
