@@ -104,6 +104,134 @@ def evaluate_cps(detected: list[int], ground_truth: list[int], tolerance: int) -
 
 # ── Main ───────────────────────────────────────────────────────────
 
+def run_evaluation(
+    csv_path: str,
+    gt_mode: str = "samira",
+    tol: int = None,
+    cp_col: str = None,
+    eval_out: str = None,
+) -> dict:
+    """
+    Evaluate a detection-results CSV against ground truth.
+    Can be called programmatically from other modules.
+
+    Returns a dict with aggregate TP, FP, FN, Precision, Recall, F1.
+    """
+    df = pd.read_csv(csv_path)
+    df = df[~df["Log"].astype(str).str.startswith("===")].copy()
+    df = df.reset_index(drop=True)
+
+    # Auto-detect CP column
+    if cp_col is None:
+        for candidate in ["Detected Changepoints", "Duration CPs", "Routing CPs", "Combined CPs"]:
+            if candidate in df.columns:
+                cp_col = candidate
+                break
+    if cp_col is None or cp_col not in df.columns:
+        print(f"[Eval] ERROR: cannot find CP column. Available: {df.columns.tolist()}")
+        return {}
+
+    gt_func = GT_MODES[gt_mode]
+
+    print(f"\n{'=' * 80}")
+    print(f"[Evaluation]  source : {csv_path}")
+    print(f"[Evaluation]  CP col : {cp_col}   GT mode : {gt_mode}")
+    print(f"{'=' * 80}")
+
+    total_tp = total_fp = total_fn = 0
+    detail_rows = []
+
+    for _, row in df.iterrows():
+        fname = str(row["Log"])
+        raw = row[cp_col]
+        if pd.isna(raw) or str(raw).strip() in ("", "ERROR", "[]"):
+            detected = []
+        else:
+            try:
+                detected = json.loads(str(raw))
+            except json.JSONDecodeError:
+                detected = []
+
+        n_cases = extract_n_cases_from_filename(fname)
+        if n_cases is None:
+            print(f"  SKIP {fname} — cannot extract n_cases from filename")
+            continue
+
+        gt = gt_func(n_cases)
+        tolerance = tol if tol is not None else max(round(0.10 * n_cases), 10)
+        result = evaluate_cps(detected, gt, tolerance)
+
+        total_tp += result["TP"]
+        total_fp += result["FP"]
+        total_fn += result["FN"]
+
+        status = ""
+        if result["FP"] > 0:
+            status += f"FP={result['FP']} "
+        if result["FN"] > 0:
+            status += f"FN={result['FN']} "
+        if not status:
+            status = "OK"
+
+        tag = "\u2713" if result["F1"] == 1.0 else "\u2717"
+        print(f"  {tag} {fname[:55]:55s}  Det={str(detected):25s} GT={str(gt):15s}  "
+              f"P={result['Precision']:.2f} R={result['Recall']:.2f} F1={result['F1']:.2f}  {status.strip()}")
+
+        detail_rows.append({
+            "Log": fname, "n_cases": n_cases, "GT": str(gt),
+            "Detected": str(detected), "Tol": tolerance,
+            **result, "Status": status.strip(),
+        })
+
+    # Aggregate
+    agg_p  = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
+    agg_r  = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
+    agg_f1 = 2 * agg_p * agg_r / (agg_p + agg_r) if (agg_p + agg_r) > 0 else 0.0
+
+    print(f"\n{'=' * 80}")
+    print(f"  AGGREGATE over {len(detail_rows)} files:")
+    print(f"    TP = {total_tp}   FP = {total_fp}   FN = {total_fn}")
+    print(f"    Precision = {agg_p:.4f}")
+    print(f"    Recall    = {agg_r:.4f}")
+    print(f"    F1        = {agg_f1:.4f}")
+    print(f"{'=' * 80}")
+
+    if eval_out:
+        detail_df = pd.DataFrame(detail_rows)
+        # Separator row for visual clarity in CSV
+        separator_row = {
+            "Log": "", "n_cases": "", "GT": "",
+            "Detected": "", "Tol": "",
+            "TP": "", "FP": "", "FN": "",
+            "Precision": "", "Recall": "", "F1": "", "Status": "",
+        }
+        agg_row = {
+            "Log": "=== AGGREGATE ===",
+            "n_cases": f"{len(detail_rows)} files",
+            "GT": "-",
+            "Detected": "-",
+            "Tol": "-",
+            "TP": total_tp, "FP": total_fp, "FN": total_fn,
+            "Precision": round(agg_p, 4),
+            "Recall": round(agg_r, 4),
+            "F1": round(agg_f1, 4),
+            "Status": "",
+        }
+        detail_df = pd.concat(
+            [detail_df, pd.DataFrame([separator_row, agg_row])],
+            ignore_index=True,
+        )
+        detail_df.to_csv(eval_out, index=False)
+        print(f"  Detail saved to: {eval_out}")
+
+    return {
+        "TP": total_tp, "FP": total_fp, "FN": total_fn,
+        "Precision": round(agg_p, 4),
+        "Recall": round(agg_r, 4),
+        "F1": round(agg_f1, 4),
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Evaluate detection results CSV against ground truth.",
@@ -127,122 +255,13 @@ def main():
     )
     args = parser.parse_args()
 
-    df = pd.read_csv(args.csv)
-
-    # Drop summary rows
-    df = df[~df["Log"].astype(str).str.startswith("===")].copy()
-    df = df.reset_index(drop=True)
-
-    # Auto-detect CP column
-    cp_col = args.cp_col
-    if cp_col is None:
-        for candidate in ["Duration CPs", "Routing CPs", "Combined CPs"]:
-            if candidate in df.columns:
-                cp_col = candidate
-                break
-    if cp_col is None or cp_col not in df.columns:
-        print(f"ERROR: Cannot find CP column. Available: {df.columns.tolist()}")
-        sys.exit(1)
-
-    gt_func = GT_MODES[args.gt_mode]
-
-    print(f"Evaluating: {args.csv}")
-    print(f"CP column:  {cp_col}")
-    print(f"GT mode:    {args.gt_mode}")
-    print(f"Files:      {len(df)}")
-    print("=" * 90)
-
-    total_tp = 0
-    total_fp = 0
-    total_fn = 0
-    detail_rows = []
-
-    for _, row in df.iterrows():
-        fname = str(row["Log"])
-
-        # Parse detected CPs
-        raw = row[cp_col]
-        if pd.isna(raw) or str(raw).strip() in ("", "ERROR", "[]"):
-            detected = []
-        else:
-            try:
-                detected = json.loads(str(raw))
-            except json.JSONDecodeError:
-                detected = []
-
-        # Get n_cases and GT
-        n_cases = extract_n_cases_from_filename(fname)
-        if n_cases is None:
-            print(f"  SKIP {fname} — cannot extract n_cases from filename")
-            continue
-
-        gt = gt_func(n_cases)
-
-        # Tolerance
-        if args.tol is not None:
-            tol = args.tol
-        else:
-            tol = max(round(0.10 * n_cases), 10)
-
-        result = evaluate_cps(detected, gt, tol)
-        total_tp += result["TP"]
-        total_fp += result["FP"]
-        total_fn += result["FN"]
-
-        status = "OK" if result["FN"] == 0 and result["FP"] == 0 else ""
-        if result["FP"] > 0:
-            status += f"FP={result['FP']} "
-        if result["FN"] > 0:
-            status += f"FN={result['FN']} "
-
-        detail_rows.append({
-            "Log": fname,
-            "n_cases": n_cases,
-            "GT": str(gt),
-            "Detected": str(detected),
-            "Tol": tol,
-            **result,
-            "Status": status.strip(),
-        })
-
-        tag = "✓" if result["F1"] == 1.0 else "✗"
-        print(f"  {tag} {fname[:55]:55s}  Det={str(detected):25s} GT={str(gt):15s}  "
-              f"P={result['Precision']:.2f} R={result['Recall']:.2f} F1={result['F1']:.2f}  {status.strip()}")
-
-    # ── Aggregate metrics ──
-    print("\n" + "=" * 90)
-    agg_p = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
-    agg_r = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
-    agg_f1 = 2 * agg_p * agg_r / (agg_p + agg_r) if (agg_p + agg_r) > 0 else 0.0
-
-    print(f"  AGGREGATE over {len(detail_rows)} files:")
-    print(f"    TP = {total_tp}   FP = {total_fp}   FN = {total_fn}")
-    print(f"    Precision = {agg_p:.4f}")
-    print(f"    Recall    = {agg_r:.4f}")
-    print(f"    F1        = {agg_f1:.4f}")
-    print("=" * 90)
-
-    # ── Optional detail CSV ──
-    if args.out:
-        detail_df = pd.DataFrame(detail_rows)
-        # Add aggregate row
-        agg_row = {
-            "Log": "=== AGGREGATE ===",
-            "n_cases": "",
-            "GT": "",
-            "Detected": "",
-            "Tol": "",
-            "TP": total_tp,
-            "FP": total_fp,
-            "FN": total_fn,
-            "Precision": round(agg_p, 4),
-            "Recall": round(agg_r, 4),
-            "F1": round(agg_f1, 4),
-            "Status": "",
-        }
-        detail_df = pd.concat([detail_df, pd.DataFrame([agg_row])], ignore_index=True)
-        detail_df.to_csv(args.out, index=False)
-        print(f"  Detail saved to: {args.out}")
+    run_evaluation(
+        csv_path=args.csv,
+        gt_mode=args.gt_mode,
+        tol=args.tol,
+        cp_col=args.cp_col,
+        eval_out=args.out,
+    )
 
 
 if __name__ == "__main__":
